@@ -1,0 +1,95 @@
+main {
+    background-color: var(--cor_preto_01);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-perfil, .container-info {
+    background-color: var(--cor_preto_02);
+    border-radius: 20px;
+    border: 1px solid var(--cor_borda);
+}
+
+.container-perfil {
+    height: 90vh;
+    width: 20vw;
+}
+
+.container-info {
+    height: 90vh;
+    width: 70vw;
+}
+
+@media (max-width: 1115px) {
+    main {
+        flex-direction: column;
+    }
+
+    .container-perfil {
+        height: 20vh;
+        width: 90vw;
+    }
+
+    .container-info {
+        height: 70vh;
+        width: 90vw;
+    }
+}
+
+/* ---------------------- container perfil ---------------------- */
+
+.container-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    figure {
+        background-color: var(--cor_preto_04);
+        width: 60%;
+        height: 25%;
+        border-radius: 30px;
+    }
+
+    hr {
+        width: 80%;
+        border: none;
+        height: 1px;
+        background-color: var(--cor_preto_04);
+
+    }
+}
+
+.container-perfil>h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--cor_branca_01);
+}
+
+.container-perfil>p {
+    font-size: .8rem;
+    font-weight: 300;
+    color: var(--cor_branca_01);
+    background-color: var(--cor_preto_03);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.container-contato {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        background-color: red;
+    }
+}

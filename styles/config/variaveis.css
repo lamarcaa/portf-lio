@@ -1,0 +1,12 @@
+:root {
+    --cor_azul_01: #b5e2dc;
+    --cor_gradient: #linear-gradient(343deg, rgba(181, 226, 220, 1) 0%, rgba(123, 155, 176, 1) 100%);
+    --cor_preto_01: #111111;
+    --cor_preto_02: #1e1e1f;
+    --cor_preto_03: #282829;
+    --cor_preto_04: #363636;
+    --cor_preto_05: #111111;
+    --cor_borda: #383838;
+    --cor_branca_01: #fafafa;
+    --cor_branca_02: #d1d1d1;
+}
